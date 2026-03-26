@@ -1,6 +1,6 @@
 # Alap Expression Parser — Go
 
-Server-side Go port of the Alap expression parser (`src/core/ExpressionParser.ts`). Use this to resolve Alap expressions in Go servers without a Node.js sidecar.
+[Alap](https://github.com/DanielSmith/alap) is a JavaScript library that turns links into dynamic menus with multiple curated targets. This is the server-side Go port of the expression parser, enabling expression resolution in Go servers without a Node.js sidecar.
 
 ## What's included
 
@@ -53,7 +53,6 @@ safe := alap.SanitizeURL(url) // "about:blank" if dangerous
 ## Tests
 
 ```bash
-cd src/other-languages/go
 go test -v ./...
 ```
 
@@ -61,4 +60,4 @@ go test -v ./...
 
 ## Used by
 
-- [gin-sqlite](../../../examples/servers/gin-sqlite/) server
+- [gin-sqlite](https://github.com/DanielSmith/alap/tree/main/examples/servers/gin-sqlite) server
